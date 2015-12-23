@@ -193,7 +193,7 @@ public class AiBoard {
                     currentValue = player;
                     currentWin = true;
                     break;
-                } else if(results[i] == 0) {
+                } else if(results[i] == 0 || results[i] == -1) {
                     drow = true;
                 }
             }
